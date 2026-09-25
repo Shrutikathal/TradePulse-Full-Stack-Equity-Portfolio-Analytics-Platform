@@ -26,4 +26,3 @@ TradePulse is a full-stack financial technology platform engineered for stock po
 
 ---
 
-## ⚙️ System Architecture & Data Flow
