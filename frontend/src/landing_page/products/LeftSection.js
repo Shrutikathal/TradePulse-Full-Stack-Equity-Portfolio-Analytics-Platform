@@ -19,17 +19,17 @@ function LeftSection({
           <h1>{productName}</h1>
           <p className="text-muted">{productDescription}</p>
           <div>
-            <a href={tryDemo} style={{ textDecoration: "none" }}>Try Demo {" "} <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
-            <a href={learnMore} style={{ marginLeft: "100px" }} style={{ textDecoration: "none" }}>
-              Learn More {" "} <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+            <a href={tryDemo} style={{ textDecoration: "none" }}>Try Demo {" "} <i className="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+            <a href={learnMore} style={{ marginLeft: "100px",textDecoration: "none" }}>
+              Learn More {" "} <i className="fa fa-long-arrow-right" aria-hidden="true"></i>
             </a>
           </div>
           <div className="mt-3">
             <a href={googlePlay}>
-              <img src="media/images/googlePlayBadge.svg" />
+              <img src="media/images/googlePlayBadge.svg" alt="Google Play" />
             </a>
             <a href={appStore} style={{ marginLeft: "50px" }}>
-              <img src="media/images/appstoreBadge.svg" />
+              <img src="media/images/appstoreBadge.svg"  alt="App Store"/>
             </a>
           </div>
         </div>

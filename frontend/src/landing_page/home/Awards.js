@@ -7,32 +7,34 @@ function Awards() {
                     <img src='media/images/largestBroker.svg' alt='Awards Image' className='mb-5' />
                 </div>
                 <div className='col-6 p-5'>
-                    <h1>Largest Stock Broker in India</h1>
-                    <p className='mb-5'>2+ million Zerodha clients contributess to over 15% of all retail order volumes in India daily by trading and investing in:</p>
+                    <h1>Your Smart Stock Trading Platform</h1>
+                    <p className='mb-5'>TradePulse is a stock trading platform designed to track
+    investments, monitor portfolio performance, and analyze
+    equity positions through an interactive dashboard.</p>
                     <div className='row'>
                         <div className='col-6'>
                             <ul>
                                 <li>
-                                    <p>Futures and Options</p>
+                                    <p>Holdings Tracking</p>
                                 </li>
                                 <li>
-                                    <p>Commodity derivatives</p>
+                                    <p>Position Monitoring</p>
                                 </li>
                                 <li>
-                                    <p>Currency derivatives</p>
+                                    <p>Order Management</p>
                                 </li>
                             </ul>
                         </div>
                         <div className='col-6'>
                             <ul>
                                 <li>
-                                    <p>Stocks and IPOs</p>
+                                    <p>Portfolio Analytics</p>
                                 </li>
                                 <li>
-                                    <p>Direct mutual funds</p>
+                                    <p>Interactive Charts</p>
                                 </li>
                                 <li>
-                                    <p>Bonds and Gov. Securities</p>
+                                    <p>Market Data Insights</p>
                                 </li>
                             </ul>
                         </div>

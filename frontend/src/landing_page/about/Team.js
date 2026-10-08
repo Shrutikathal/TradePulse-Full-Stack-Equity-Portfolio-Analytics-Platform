@@ -1,72 +1,101 @@
-import React from 'react'
+import React from 'react';
 
 function Team() {
-    return ( 
-        <div className="container">
+  return (
+    <div className="container">
+
+      {/* Heading */}
       <div className="row p-5 mb-4 mt-5 border-top">
-        <h1 className="text-center  mt-5">
-          People
+        <h1 className="text-center mt-5">
+          About TradePulse
         </h1>
       </div>
-      <div className="row p-5  fs-6 text-muted" style={{lineHeight:"1.8",fontSize:"1.2rem"}}>
-        <div className="col-6 p-3 text-center">
-          <img src='media/images/nithinKamath.jpg'  style={{borderRadius:"100%", width:"50%"}}/>
-          <h4 className='mt-3' >Nithin Kamath</h4>
-          <h6 className='mt-2'>Founder, CEO</h6>
-        </div>
+
+      {/* Project Description */}
+      <div
+        className="row p-5 fs-6 text-muted"
+        style={{ lineHeight: "1.8", fontSize: "1.2rem" }}
+      >
         <div className="col-6 p-5">
+          <h3 className="mb-4">
+            TradePulse
+          </h3>
+
           <p>
-           Nithin bootstrapped and founded Zerodha in 2010 to overcome the hurdles he faced during his decade long stint as a trader. Today, Zerodha has changed the landscape of the Indian broking industry.
+            TradePulse is a full-stack equity and portfolio analytics
+            platform designed to provide users with a centralized
+            interface for managing and monitoring their investment
+            portfolio.
           </p>
 
           <p>
-            He is a member of the SEBI Secondary Market Advisory Committee (SMAC) and the Market Data Advisory Committee (MDAC).
+            The platform allows users to track holdings, positions,
+            orders, portfolio performance, and key financial metrics
+            through a responsive and interactive dashboard.
+          </p>
+        </div>
+
+        <div className="col-6 p-5">
+          <h3 className="mb-4">
+            What We Built
+          </h3>
+
+          <p>
+            TradePulse combines a React.js frontend with a modular
+            RESTful backend to provide a seamless user experience
+            for portfolio management and financial analytics.
           </p>
 
           <p>
-            Playing basketball is his zen.
+            Interactive charts and data visualizations powered by
+            Chart.js help users understand portfolio performance
+            and financial trends.
           </p>
+        </div>
+      </div>
+
+      {/* Technology Section */}
+      <div
+        className="row p-5 fs-6 text-muted"
+        style={{ lineHeight: "1.8", fontSize: "1.2rem" }}
+      >
+        <div className="col-12 p-5 text-center">
+          <h3 className="mb-4">
+            Technology Stack
+          </h3>
+
           <p>
-            Connect on <a href="" style={{textDecoration:"none"}}>Homepage</a> / <a href=""style={{textDecoration:"none"}} >TradingQnA</a> / <a href="" style={{textDecoration:"none"}}>Twitter</a>
+            React.js &nbsp; | &nbsp;
+            Node.js &nbsp; | &nbsp;
+            Express.js &nbsp; | &nbsp;
+            MongoDB &nbsp; | &nbsp;
+            REST APIs &nbsp; | &nbsp;
+            Chart.js
           </p>
         </div>
       </div>
-      <div className="row   fs-6 text-muted" style={{lineHeight:"1.8",fontSize:"1.2rem"}}>
-        <div className="col-4 p-5 text-center">
-          <img src='media/images/nikhil.jpg'  style={{borderRadius:"100%", width:"60%"}}/>
-          <h4 className='mt-3' >Nikhil Kamath</h4>
-          <h6 className='mt-2'>Co-Founder & CTO</h6>
+
+      {/* Team Section */}
+      <div
+        className="row p-5 fs-6 text-muted"
+        style={{ lineHeight: "1.8", fontSize: "1.2rem" }}
+      >
+        <div className="col-12 p-5 text-center">
+          <h3 className="mb-4">
+            Project Team
+          </h3>
+
+          <p>
+            TradePulse was developed as a team-based software
+            development project, focusing on frontend development,
+            backend integration, database management, and financial
+            data visualization.
+          </p>
         </div>
-        <div className="col-4 p-5 text-center">
-          <img src='media/images/Kailash.jpg'  style={{borderRadius:"100%", width:"60%"}}/>
-          <h4 className='mt-3' >Dr. Kailash Nadh</h4>
-          <h6 className='mt-2'>CTO</h6>
-        </div>
-        <div className="col-4 p-5 text-center">
-          <img src='media/images/Venu.jpg'  style={{borderRadius:"100%", width:"60%"}}/>
-          <h4 className='mt-3' >Venu Madhav</h4>
-          <h6 className='mt-2'>COO</h6>
-        </div>        
       </div>
-      <div className="row   fs-6 text-muted" style={{lineHeight:"1.8",fontSize:"1.2rem"}}>
-        <div className="col-4 p-5 text-center">
-          <img src='media/images/Seema.jpg'  style={{borderRadius:"100%", width:"60%"}}/>
-          <h4 className='mt-3' >Seema Patil</h4>
-          <h6 className='mt-2'>Director</h6>
-        </div>
-        <div className="col-4 p-5 text-center">
-          <img src='media/images/karthik.jpg'  style={{borderRadius:"100%", width:"60%"}}/>
-          <h4 className='mt-3' >Karthik Rangappa</h4>
-          <h6 className='mt-2'>Chief of Education</h6>
-        </div>
-        <div className="col-4 p-5 text-center">
-          <img src='media/images/Austin.jpg'  style={{borderRadius:"100%", width:"60%"}}/>
-          <h4 className='mt-3' >Austin Prakash</h4>
-          <h6 className='mt-2'>Director Strategy</h6>
-        </div>     
-      </div>
+
     </div>
-     );
+  );
 }
 
 export default Team;

@@ -5,15 +5,13 @@ function Universe() {
       <div className="text-center">
         <div className="mb-5">
           <h5 className="">
-            Want to know more about our technology stack? Check out the{" "}
-            <a href="">Zerodha.tech</a> blog.
+            Explore the technology and ideas behind modern trading platforms.
           </h5>
         </div>
         <div className="mt-5">
-          <h4 className=" mb-3">The Zerodha Universe</h4>
+          <h4 className=" mb-3">Trading & Investment Ecosystem</h4>
           <p>
-            Extend your trading and investment experience even further with our
-            partner platforms
+            Explore platforms and services that have influenced the modern digital investing ecosystem.
           </p>
         </div>
       </div>
@@ -69,6 +67,11 @@ function Universe() {
             mis-selling.
           </p>
         </div>
+        <p className="text-muted text-center mt-4">
+    TradePulse is an independent project inspired by modern trading and
+    investment platforms. The brands shown are for reference only and are
+    not affiliated with or endorsed by TradePulse.
+</p>
       </div>
       <div className="text-center">
         <button className='p-2 text-center btn btn-primary fs-5 mb-5'style={{width:"20%",margin:"0 auto"}}>Sign Up for Free</button>  
