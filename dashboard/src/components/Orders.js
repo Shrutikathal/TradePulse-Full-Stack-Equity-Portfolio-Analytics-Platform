@@ -5,10 +5,15 @@ const Orders = () => {
   return (
     <div className="orders">
       <div className="no-orders">
-        <p>You haven't placed any orders today</p>
+        <h3>No Orders Yet</h3>
+
+        <p>
+          You haven't placed any orders yet. Start exploring your portfolio
+          and manage your orders through TradePulse.
+        </p>
 
         <Link to={"/"} className="btn">
-          Get started
+          Explore Dashboard
         </Link>
       </div>
     </div>

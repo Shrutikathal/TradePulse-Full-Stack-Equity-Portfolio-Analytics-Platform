@@ -37,7 +37,7 @@ code {
 }
 
 .funds p {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   color: rgb(179, 179, 179);
   margin-right: 8px;
 }
@@ -281,7 +281,7 @@ code {
 }
 
 .menu {
-  font-size: 0.8rem;
+  font-size: 1.1rem;
   font-weight: 400;
   color: rgb(70, 70, 70);
 }
@@ -320,7 +320,7 @@ hr {
 }
 
 .profile .username {
-  font-size: 0.8rem;
+  font-size: 1.0rem;
   font-weight: 300;
 }
 
@@ -399,7 +399,7 @@ hr {
   padding: 15px 10px;
   color: rgb(145, 145, 145);
   font-weight: 300;
-  font-size: 0.8rem;
+  font-size: 1.0rem;
 }
 
 .order-table tr th:first-child,
@@ -423,7 +423,7 @@ hr {
   padding: 10px 10px;
   text-align: right;
   font-weight: 400;
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: rgb(73, 73, 73);
 }
 
@@ -462,7 +462,7 @@ hr {
 }
 
 .col p {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   color: rgb(153, 153, 153);
   font-weight: 300;
   margin-top: 2%;
@@ -530,7 +530,7 @@ hr {
 }
 
 .data .first p {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   color: rgb(136, 136, 136);
 }
 
@@ -549,7 +549,7 @@ hr {
 }
 
 .data .second p {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   color: rgb(136, 136, 136);
   margin-bottom: 10px;
   white-space: nowrap;
@@ -608,7 +608,7 @@ hr {
 }
 
 .index {
-  font-size: 0.8rem;
+  font-size: 1.0rem;
   font-weight: 500;
   text-transform: uppercase;
   color: rgb(97, 97, 97);
@@ -616,13 +616,13 @@ hr {
 }
 
 .index-points {
-  font-size: 0.8rem;
+  font-size: 1.0rem;
   font-weight: 500;
   color: rgb(223, 73, 73);
 }
 
 .percent {
-  font-size: 0.8rem;
+  font-size: 1.0rem;
   font-weight: 400;
   color: rgb(146, 146, 146);
 }
@@ -683,7 +683,7 @@ hr {
   align-items: center;
   justify-content: space-between;
   font-weight: 300;
-  font-size: 0.8rem;
+  font-size: 1rem;
   position: relative;
 }
 
@@ -737,7 +737,7 @@ hr {
   background-color: #4184f3;
   color: #fff;
   font-weight: 400;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   border: 0.7px solid #4184f3;
 }
 
@@ -745,7 +745,7 @@ hr {
   background-color: #ff5722;
   color: #fff;
   font-weight: 400;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   border: 0.7px solid #ff5722;
 }
 

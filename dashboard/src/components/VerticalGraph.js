@@ -27,7 +27,10 @@ export const options = {
     },
     title: {
       display: true,
-      text: "Holdings",
+      text: "Portfolio Holdings",
+      font: {
+        size: 18,
+      },
     },
   },
 };
