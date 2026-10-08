@@ -4,6 +4,7 @@ function OpenAccount() {
     return (
         <div className='container p-5 mt-5 mb-5'>
             <div className='row text-center'>
+
                 <h1 className='mt-5'>Open your TradePulse account</h1>
 
                 <p>
@@ -17,12 +18,14 @@ function OpenAccount() {
                     trading and portfolio management experience.
                 </p>
 
-                <button
-                    className='p-2 btn btn-primary fs-5 mb-5'
+                <a
+                    href="/signup"
+                    className="btn btn-primary p-2 fs-5 mb-5"
                     style={{ width: "20%", margin: "0 auto" }}
                 >
                     Open Account
-                </button>
+                </a>
+
             </div>
         </div>
     );
