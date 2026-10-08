@@ -4,7 +4,7 @@ TradePulse is a full-stack financial technology platform engineered for stock po
 
 ---
 
-## 🌟 Features Implemented
+## 🌟 Features 
 
 * **Holdings Dashboard:** Fetches stock holding records from MongoDB via REST API (`/allHoldings`) and displays instruments, quantities, average costs, LTP (Last Traded Price), current values, and live P&L status.
 * **Positions Overview:** Displays day trading positions with real-time profit and loss status using dynamic styling (`profit` / `loss`).
